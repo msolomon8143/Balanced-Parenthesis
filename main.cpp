@@ -6,8 +6,11 @@
  * *******************************************/
 /********************************************
 * Sample Test Cases
-* (4+8)*2
-* 3+2∗(4−1)
+* Example:
+* Input: [A∗{B + (C + D)}]      Output: Balanced
+* Input: [{()()}]               Output: Balanced
+* Input: [A∗{B + (C + D})]      Output: Not Balanced
+* Input: [{(])()}               Output: Not Balanced
 * *******************************************/
 // CPP program to check for balanced brackets.
 #include <iostream>
